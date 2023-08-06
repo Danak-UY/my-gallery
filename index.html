@@ -12,6 +12,7 @@
     <title>Interior Consultant - Dev Challenges</title>
 
     <link rel="stylesheet" href="./css/styles.min.css" />
+    <script type="module" src="./js/animations.js" defer></script>
   </head>
   <body>
     <div
@@ -38,28 +39,38 @@
       <main
         class="mb-12 flex flex-grow flex-col items-center justify-start gap-12 md:mb-16 md:gap-16"
       >
-        <section class="grid grid-cols-3 gap-6">
+        <section class="information grid grid-cols-3 gap-6">
           <div
             class="flex flex-col-reverse rounded-xl bg-gray-neutral px-2 py-2 text-center md:px-6"
           >
             <h2 class="text-sm text-gray-light">Posts</h2>
-            <span class="text-sm font-bold text-gray-dark md:text-lg">100</span>
+            <span
+              class="text-sm font-bold text-gray-dark md:text-lg"
+              data-value="100"
+              >0</span
+            >
           </div>
           <div
             class="flex flex-col-reverse rounded-xl bg-gray-neutral px-2 py-2 text-center md:px-6"
           >
             <h2 class="text-sm text-gray-light">Followers</h2>
-            <span class="text-sm font-bold text-gray-dark md:text-lg"
-              >2,242</span
+            <span
+              class="text-sm font-bold text-gray-dark md:text-lg"
+              data-value="2242"
             >
+              0
+            </span>
           </div>
           <div
             class="flex flex-col-reverse rounded-xl bg-gray-neutral px-2 py-2 text-center md:px-6"
           >
             <h2 class="text-sm text-gray-light">Following</h2>
-            <span class="text-sm font-bold text-gray-dark md:text-lg"
-              >1,432</span
+            <span
+              class="text-sm font-bold text-gray-dark md:text-lg"
+              data-value="1432"
             >
+              0
+            </span>
           </div>
         </section>
 
@@ -69,32 +80,32 @@
           <img
             src="./assets//photo1.webp"
             alt=""
-            class="rounded-xl object-cover"
+            class="rounded-xl object-cover opacity-0"
           />
           <img
             src="./assets//photo2.webp"
             alt=""
-            class="col-span-2 rounded-xl object-cover"
+            class="col-span-2 rounded-xl object-cover opacity-0"
           />
           <img
             src="./assets//photo3.webp"
             alt=""
-            class="col-span-2 rounded-xl object-cover"
+            class="col-span-2 rounded-xl object-cover opacity-0"
           />
           <img
             src="./assets//photo4.webp"
             alt=""
-            class="row-span-2 rounded-xl object-cover"
+            class="row-span-2 rounded-xl object-cover opacity-0"
           />
           <img
             src="./assets//photo5.webp"
             alt=""
-            class="rounded-xl object-cover"
+            class="rounded-xl object-cover opacity-0"
           />
           <img
             src="./assets//photo6.webp"
             alt=""
-            class="rounded-xl object-cover"
+            class="rounded-xl object-cover opacity-0"
           />
         </section>
       </main>
